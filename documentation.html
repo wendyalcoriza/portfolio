@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Sidebar -->
+        <nav class="bg-purple-800 text-white w-64 p-6 fixed h-full">
+            <h2 class="text-2xl font-bold mb-6">Documentation</h2>
+            <ul class="space-y-4">
+                <li><a href="#intro" class="text-lg hover:text-gray-400">Introduction</a></li>
+                <li><a href="#setup" class="text-lg hover:text-gray-400">Setup</a></li>
+                <li><a href="#usage" class="text-lg hover:text-gray-400">Usage</a></li>
+                <li><a href="#examples" class="text-lg hover:text-gray-400">Examples</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Content -->
+        <main class="ml-64 p-8">
+            <!-- Back Button -->
+            <a href="index.html" class="bg-yellow-400 px-6 py-2 rounded-full text-gray-900 font-semibold hover:bg-yellow-500 mb-8 inline-block">
+                Back to Portfolio
+            </a>
+
+            <!-- Documentation Sections -->
+            <section id="intro" class="mb-12">
+                <h2 class="text-3xl font-semibold text-gray-800">Introduction</h2>
+                <p class="text-lg text-gray-700 mt-4">Welcome to the technical documentation page. Here, we explain the concepts and usage of our system.</p>
+            </section>
+            <section id="setup" class="mb-12">
+                <h2 class="text-3xl font-semibold text-gray-800">Setup</h2>
+                <p class="text-lg text-gray-700 mt-4">Follow these steps to set up the system...</p>
+            </section>
+            <section id="usage" class="mb-12">
+                <h2 class="text-3xl font-semibold text-gray-800">Usage</h2>
+                <p class="text-lg text-gray-700 mt-4">Instructions on how to use the system...</p>
+            </section>
+            <section id="examples" class="mb-12">
+                <h2 class="text-3xl font-semibold text-gray-800">Examples</h2>
+                <p class="text-lg text-gray-700 mt-4">Code snippets and examples...</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
